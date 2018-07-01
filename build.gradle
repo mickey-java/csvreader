@@ -1,0 +1,13 @@
+apply plugin: 'java-library'
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+
+	compile 'org.apache.commons:commons-csv:+'
+
+    testImplementation 'junit:junit:4.12'
+}
+
